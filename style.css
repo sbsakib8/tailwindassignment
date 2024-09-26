@@ -25,18 +25,19 @@
     @apply flex flex-row items-center gap-5 mb-9 ml-5;
    }
    .primary_text{
-    @apply font-semibold text-2xl leading-[30.24px] text-blackColor  mb-5 mt-5 ml-6;
+    @apply font-semibold text-2xl leading-[30.24px] text-blackColor  mb-5 mt-5 ml-6 dark:text-white;
    }
    .paragraph_text{
-    @apply text-lg font-medium leading-[22.68px] text-paragraphColor text-wrap;
+    @apply text-lg font-medium leading-[22.68px] text-paragraphColor text-wrap dark:text-white;
    }
    .skill_tag{
-    @apply border-secondaryColor rounded-full border-2 text-center px-1 mt-2  text-paragraphColor text-lg font-normal leading-[22.68px];
+    @apply border-secondaryColor rounded-full border-2 text-center px-1 mt-2  text-paragraphColor text-lg font-normal leading-[22.68px] dark:text-white;
    }
    .count_number{
-    @apply border border-blackColor py-1 px-6 rounded-full hover:bg-greenColor text-center;
+    @apply border border-blackColor dark:border-white py-1 px-6 rounded-full hover:bg-greenColor text-center;
    }
    .footer_paragraph{
-    @apply font-normal text-base text-[#20484F] mt-4;
+    @apply font-normal text-base text-[#20484F] mt-4 dark:text-white;
    }
+  
 }

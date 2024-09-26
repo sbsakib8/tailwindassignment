@@ -1,3 +1,9 @@
+// ===============typed script js home=========
+let typed = new Typed(".typing",{
+    strings:["IT Support","IT ","IT Support"],
+    typeSpeed:100,
+    backSpeed:100,
+});
 // =============== navber section start=======================
 let hemderger = document.getElementById('hemderger');
 let navmanu = document.getElementById('nav-manu');
